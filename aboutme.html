@@ -1,28 +1,42 @@
 <!DOCTYPE html>
-<!--look at me. i'm a comment-->
-<html>
+<!--
+    My homepage inspiration is based off of Matt Rockefeller's website: http://www.mattrockefeller.com/ and https://hogwartsstudiess.tumblr.com/
+
+    Attributions:
+    House, Layers, and Right Align by Rajesh Rajput from the Noun Project
+-->
+<html lang="en-US">
     <head>
         <title>Allison Wells</title>
-        <style>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Hello! I am a soon to be college graduate from the University of Washington. I majored in Public Health-Global Health and am interested in anything that works with dismanteling our racist institution." />
+        <meta name="keywords" content="Allison Wells, Public Health" />
+        <link rel="stylesheet" href="styles.css"/>
 
-        </style>
     </head>
     <body>
-        <h1>Let's learn about Me!</h1>
-        <p>Click on my face to go back to my main page:<br>
-        p.s. you need to try to find the link hidden in my face<br>
-        p.p.s it's an eye booger</p>
-        <img src="img/graduation_photo.jpg" alt="My Graduation Photo" usemap="#myface" style="max-width:400px;height:auto;"/>
+        <header>
+            <div class="topnav">
+                <a href="aboutme.html"><img src="img/noun_right align_208318.png"/>Allison Wells</a>
+                <a href="index.html"><img src="img/noun_House_208305.png"/>Projects</a>
+                <a href="gallery.html"><img src="img/noun_Layers_208303.png"/>Gallery</a>
+            </div>
+        </header>
+        <div class="container">
+            <div class="aboutme">
+                    <img src="img/graduation_photo.jpg" alt="My Graduation Photo" usemap="#myface" style="max-width:300px;height:auto;"/>
+            
+                    <map name="myface">
+                        <area shape="circle" coords="131,152,5" alt="my face" href="img/Wells.Allison_Resume_May_2020.pdf">
+                    </map>
+            </div>
+            <div class="aboutme">
+                <p>Click on my face to bring up my resume:<br>
+                    p.s. you need to try to find the link hidden in my face<br>
+                    p.p.s it's an eye booger</p>
+            </div>
+        </div>
 
-        <map name="myface">
-            <area shape="circle" coords="174,205,5" alt="my face" href="index.html">
-        </map>
-
-
-        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-        <address>
-            Written by <a href="https://www.linkedin.com/in/acgbw/">Allison Wells</a><br>
-            <a href="firsthomepage.html">Personal Website</a><br>
-        </address>
     </body>
 </html>
