@@ -1,85 +1,121 @@
-<!DOCTYPE html>
-<!--
-    My homepage inspiration is based off of Matt Rockefeller's website: http://www.mattrockefeller.com/ and https://hogwartsstudiess.tumblr.com/
-
-    Attributions:
-    House, Layers, and Right Align by Rajesh Rajput from the Noun Project
--->
-<html lang="en-US">
+<html>
     <head>
-        <title>Allison Wells</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta charset="UTF-8">
-        <meta name="description" content="Hello! I am a soon to be college graduate from the University of Washington. I majored in Public Health-Global Health and am interested in anything that works with dismanteling our racist institution." />
-        <meta name="keywords" content="Allison Wells, Public Health" />
-        <meta http-equiv="refresh" content="60" />
-        <style type="text/css"></style>
-
         <style>
-            body{
-                background-color:white;
+            html {
+                box-sizing: border-box;
             }
-            
-            .topnav {
-                top: 0;
-                position: fixed;
-                display: block;
-                background-color: white;
-                opacity: .85;
-                z-index:1;
-                padding:5px;
-                margin: 0 auto;
-                width: 100%;
-                text-align: center;
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
             }
-
-            a {
-                color:#666;
-                text-decoration:none;
-            }
-
-            .topnav a {
-                text-align: center;
-                width:200px;
-                display:inline-block;
-                font-size:12px;
-                text-transform:uppercase;
-                letter-spacing:.5px;
-                transition:.5s;              
-            }
-
-            .topnav img {
-                width:10px;
-                height:auto;
-                padding-right:8px;
+            .masonry {
+                margin: 1em auto;
+                max-width: 768 px;
+                column-gap: 1em;
                 
             }
-
-            .topnav a:hover{
-                opacity: .5;
-                text-decoration:none;
-                border-bottom: 1px solid #7f7f7f;
+            .item {
+                background: #fff;
+                padding: 1em;
+                margin: 0 0 1em;
+                
+            }
+            @media only screen and (min-width: 1024px) {
+                .masonry {
+                    column-count: 4;
+                }
             }
 
-            .content {
-                padding:15px;
-                float:left;
+            /* Masonry on medium-sized screens */
+            @media only screen and (max-width: 1023px) and (min-width: 768px) {
+                .masonry {
+                    column-count: 3;
+                }
+            }
+
+            /* Masonry on small screens */
+            @media only screen and (max-width: 767px) and (min-width: 540px) {
+                .masonry {
+                    column-count: 2;
+                }
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
             }
         </style>
     </head>
     <body>
-        <div class="topnav">
-            <a href="aboutme.html"><img src="img/noun_right align_208318.png"/>Allison Wells</a>
-            <a href="index.html"><img src="img/noun_House_208305.png"/>Projects</a>
-            <a href="gallery.html"><img src="img/noun_Layers_208303.png"/>Gallery</a>
-        </div>
+        <div class="masonry">
+            <div class="item">
+                <a href="img/UBAY3537.JPG"><img src="img/UBAY3537.JPG" title="Minecraft Birthday Card" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_2597.JPG"><img src="img/IMG_2597.JPG" title="Young Naruto" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_2598.JPG"><img src="img/IMG_2598.JPG" title="Naruto and Ramen" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_9799.JPG"><img src="img/IMG_9799.JPG" title="Sophomore Year Roommates" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_8229.JPG"><img src="img/IMG_8229.JPG" title="Beemo" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_8253.JPG"><img src="img/IMG_8253.JPG" title="Your Lie in April Watercolor" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_8240.JPG"><img src="img/IMG_8240.JPG" title="Ada's Birthday Card" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_9443.JPG"><img src="img/IMG_9443.JPG" title="2018 Mother's Day Card" /></a>
+            </div>
 
-        <div class="content">
-            <a href="img/IMG_9989.PNG"><img src="img/IMG_9989.PNG" width="300px" height="auto"/></a>
+            <div class="item">
+                <a href="img/IMG_2192.JPG"><img src="img/IMG_2192.JPG" title="CG 2019 Pumpkins" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_7054.JPG"><img src="img/IMG_7054.JPG" title="Nine Tails - Naruto" /></a>
+            </div>
+            <div class="item">
+                <a href="img/GAHH0044.jpg"><img src="img/GAHH0044.jpg" title="Colchuck Lake" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_9408.JPG"><img src="img/IMG_9408.JPG" title="UW Cherry Trees" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_6319.JPG"><img src="img/IMG_6319.JPG" title="Volunteer Park" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_6310.JPG"><img src="img/IMG_6310.JPG" title="McDonald's Fast Food" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_6218.JPG"><img src="img/IMG_6218.JPG" title="Seattle Sunset" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_5893.JPG"><img src="img/IMG_5893.JPG" title="Kirkland Streets" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_5584.JPG"><img src="img/IMG_5584.JPG" title="Sunrise Outside My House" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_5583.JPG"><img src="img/IMG_5583.JPG" title="High School Car Rides" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_2512.JPG"><img src="img/IMG_2512.JPG" title="Alvin Hiding" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_2105.JPG"><img src="img/IMG_2105.JPG" title="California Coast" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_2004 (1).JPG"><img src="img/IMG_2004 (1).JPG" title="San Francisco Streets Pt. 2" /></a>
+            </div>
+            <div class="item">
+                <a href="img/IMG_2003 (1).JPG"><img src="img/IMG_2003 (1).JPG" title="San Francisco Streets" /></a>
+            </div>
         </div>
-        <div class="content">
-            <a href="img/50024014_750634138634076_2406117597788504064_o.jpg"><img src="img/50024014_750634138634076_2406117597788504064_o.jpg" title="First WN General Meeting FB Banner 2018" width="300px" height="auto"/></a>
-        </div>
-        
     </body>
 </html>
