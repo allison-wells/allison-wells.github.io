@@ -1,3 +1,9 @@
+/* 
+
+CSS FOR ALL PAGES
+
+*/
+
 body{
     background-color:white;
     margin-top: 60px;
@@ -5,10 +11,6 @@ body{
     font-family: DejaVu Sans Mono, monospace;
 }
 
-a {
-    color:#666;
-    text-decoration:none;  
-}
 
 hr {
     border: 0;
@@ -17,44 +19,96 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
+a {
+    color:#666;
+    text-decoration:none;  
+}
+
+/* 
+
+INDEX.HTML CSS
+
+*/
+
 .topnav {
     top: 0;
     position: fixed;
-    display: block;
     background-color: white;
     opacity: .85;
     z-index:1;
-    margin: 0 auto;
     width: 100%;
-    text-align: center;
-    height: 50px;
     line-height: 50px;
-    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    list-style-type: none;
 }
 
-.topnav a {
-    text-align: center;
+.logo {
+    width: 250px;
+    display: inline-block;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.icons {
+    padding-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.icons a {
     width:200px;
     display:inline-block;
     font-size:18px;
     text-transform:uppercase;
-    letter-spacing:.5px;
-                 
+    letter-spacing:.5px;             
 }
 
-.topnav img {
+.icons img {
     width:10px;
     height:auto;
     padding-right:8px;
-    
 }
 
-.topnav a:hover{
+.icons a:hover{
     opacity: .5;
     text-decoration:none;
     border-bottom: 1px solid #7f7f7f;
-     
+    
 }
+
+
+.block {
+    text-align: center;
+}
+.div1 {
+    padding-top: 20px;
+    display: inline;
+
+}
+.div1 img {
+    max-width: 200px;
+    height: auto;
+}
+.div2 {
+    padding-left: 30px;
+    display: inline-block;
+    max-width: 500px;
+}
+.div2 a {
+    color: blue;
+}
+
+
+/* 
+
+GALLERY.HTML CSS
+
+*/
 
 .masonry {
     margin: 0;
@@ -65,10 +119,6 @@ hr {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
-#name {
-    width: 180px;
 }
 
 .item {
@@ -103,24 +153,23 @@ hr {
     }
 }
 
+/* 
+
+PROJECTS.HTML CSS
+
+*/
+
+.container {
+    text-align: center;
+}
+.content img {
+    width: 40%;
+    height: auto;
+}
+
 .content img:hover {
     opacity: .75;
     text-decoration: none;
     transition: .25s;
-}
-
-.piece {
-    width: 45%;
-    
-}
-
-.piece2 {
-    max-width: 500px;
-    padding-left: 20px;
-}
-
-.block {
-    display: flex;
-    margin: 0 auto;
 }
 
