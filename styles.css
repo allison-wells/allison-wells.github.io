@@ -37,6 +37,7 @@ INDEX.HTML CSS
     opacity: .85;
     z-index:1;
     width: 100%;
+    height: auto;
     line-height: 50px;
     margin: 0;
     padding: 0;
@@ -51,7 +52,8 @@ INDEX.HTML CSS
 }
 
 .logo img {
-    width: 180px;
+    max-width: 180px;
+    height: auto;
 }
 
 .icons {
@@ -99,6 +101,7 @@ INDEX.HTML CSS
     display: inline-block;
     vertical-align: middle;
     max-width: 500px;
+    text-align: left;
 }
 .div2 a {
     color: blue;
@@ -181,4 +184,3 @@ GALLERY.HTML CSS
         column-count: 2;
     }
 }
-
