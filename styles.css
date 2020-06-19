@@ -113,17 +113,12 @@ PROJECTS.HTML CSS
 
 */
 
-.div3 {
-    display: inline;
-    vertical-align: middle;
-}
-
 .container {
     text-align: center;
 }
 
 .content img {
-    max-width: 700px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -134,7 +129,15 @@ PROJECTS.HTML CSS
 }
 
 
+.div3 {
+    display: inline;
+    vertical-align: middle;
+}
 
+.div3 img {
+    max-width: 700px;
+    height: auto;
+}
 
 /* 
 
