@@ -87,7 +87,6 @@ INDEX.HTML CSS
     text-align: center;
 }
 .div1 {
-    padding-top: 20px;
     display: inline;
     vertical-align: middle;
 
@@ -103,6 +102,7 @@ INDEX.HTML CSS
     max-width: 500px;
     text-align: left;
 }
+
 .div2 a {
     color: blue;
 }
